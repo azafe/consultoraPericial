@@ -9,7 +9,7 @@ import {
   rem,
   useMantineTheme,
 } from '@mantine/core';
-import { IconGauge, IconUser, IconCookie } from '@tabler/icons-react';
+import { IconGauge, IconUser, IconCookie,IconCar, IconFileSpreadsheet, IconSchool } from '@tabler/icons-react';
 import classes from './FeaturesCards.module.css';
 
 const mockdata = [
@@ -17,19 +17,19 @@ const mockdata = [
     title: 'Servicios Periciales',
     description:
       'Investigamos a fondo los accidentes de tránsito, concurriendo al lugar del evento y/o recurriendo al expendiente penal para recopilar datos útiles para la pesquisa pericial',
-    icon: IconGauge,
+    icon: IconFileSpreadsheet,
   },
   {
     title: 'Reconstrucción del hecho',
     description:
       'Reconstruimos los eventos aconteciods, y determinamos las causas que incidieron en su ocurrencia.',
-    icon: IconUser,
+    icon: IconCar,
   },
   {
     title: 'Servicios de capacitación',
     description:
       'Ofrecemos cursos teóricos y prácticos en seguridad vial, normas de tránsito y conducción segura. Nos enfocamos en aspectos como la carga segura, normativas específicas y la atención al cliente',
-    icon: IconCookie,
+    icon: IconSchool,
   },
 ];
 

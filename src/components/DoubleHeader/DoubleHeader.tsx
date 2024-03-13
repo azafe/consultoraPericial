@@ -75,9 +75,10 @@ export function DoubleHeader() {
 
                 />
                 <Drawer opened={drawerOpened}  onClose={closeDrawer} closeButtonProps={{ iconSize: "0" }} position='top' size="md" styles={{
-                    body: {
-                        backgroundColor: "#010D38", // Change this to your desired color
-                    },
+                   
+                    content: {
+                        backgroundColor: "#010D38", 
+                    }
                 }}
                 >
                     <Stack gap={20} my="xl"  >
