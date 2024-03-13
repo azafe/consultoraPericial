@@ -1,0 +1,90 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: transparent;
+  transition: background-color 0.3s ease-in-out;
+  
+  }
+
+  .header.scrolled {
+    background:  linear-gradient(
+      -60deg,
+      #242424,      #242424
+    ); 
+    position: sticky;
+  
+  }
+
+
+
+  
+  
+  .inner {
+    height: rem(90px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1001;
+  }
+  
+  
+  .links-medias {
+    @media (max-width: $mantine-breakpoint-xs) {
+      margin-top: var(--mantine-spacing-md);
+    }
+  }
+
+
+  .mainLink {
+    text-transform: uppercase;
+    font-size: var(--mantine-font-size-);
+    color: light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-1));
+    padding: rem(7px) var(--mantine-spacing-sm);
+    border-bottom: rem(2px) solid transparent;
+    text-decoration: none;
+    font-family: "Paytone One";
+
+    transition:
+      border-color 100ms ease,
+      color 100ms ease;
+  
+    @mixin hover {
+      color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+      text-decoration: none;
+    }
+  
+    &[data-active] {
+      color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+      border-bottom-color: #dd6341;
+    }
+  }
+  
+  .secondaryLink {
+    color: light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-1));
+    font-size: var(--mantine-font-size-xs);
+    text-transform: uppercase;
+    transition: color 100ms ease;
+  
+    @mixin hover {
+      color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+      text-decoration: none;
+    }
+  }
+
+
+
+a:visited{
+  color:white
+}
+
+
+
+  .linksHeader{
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: x-large;
+   
+  }
