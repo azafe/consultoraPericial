@@ -6,7 +6,7 @@ import classes from './FooterSocial.module.css';
 export function FooterSocial() {
     return (
         <div className={classes.footer}>
-            <Container className={classes.inner}>
+            <Container className={classes.inner} bg="#010D38">
                 <Image h={40} src={logosolo} />
                 <Group gap={0} className={classes.links} justify="flex-end" wrap="nowrap">
                     <ActionIcon size="lg" color="gray" variant="subtle">

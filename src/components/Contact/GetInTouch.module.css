@@ -1,6 +1,6 @@
 .wrapper {
     display: flex;
-    background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-8));
+    background-color: #010D38;
     border-radius: var(--mantine-radius-lg);
     padding: rem(4px);
     border: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-8));

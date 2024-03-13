@@ -1,6 +1,7 @@
 import { Container, Title, Text, Button } from '@mantine/core';
 import classes from './HeroImageRight.module.css';
 
+
 export function HeroImageRight() {
   return (
     <Container className={classes.root} px={0}  >
