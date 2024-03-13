@@ -6,7 +6,6 @@
   z-index: 1000;
   background: transparent;
   transition: background-color 0.3s ease-in-out;
-  
   }
 
   .header.scrolled {
@@ -23,7 +22,7 @@
   
   
   .inner {
-    height: rem(90px);
+    height: rem(92px);
   display: flex;
   align-items: center;
   justify-content: space-between;

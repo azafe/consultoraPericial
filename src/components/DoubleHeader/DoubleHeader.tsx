@@ -15,7 +15,7 @@ const mainLinks = [
     { label: 'Servicios' },
     { label: 'Preguntas frecuentes' },
     { label: 'Contacto' },
-    ];
+];
 
 
 
@@ -57,9 +57,9 @@ export function DoubleHeader() {
 
 
     return (
-        <header className="header" >
-            <Container className="inner" bg="#010D38" size="lg">
-                    <Image h={40} src={logosolo} />
+        <header className="header"  >
+            <Container className="inner" bg="#010D38" size="lg"  >
+                <Image h={40} src={logosolo} />
                 <Box visibleFrom="sm" >
                     <Group gap={0} justify="flex-end"  >
                         {mainItems}
@@ -72,12 +72,17 @@ export function DoubleHeader() {
                     hiddenFrom="sm"
                     color="white"
                     px={30}
+
                 />
-                <Drawer    opened={drawerOpened} onClose={closeDrawer} closeButtonProps={{ iconSize: "0" }}  position='top' size="60%"
+                <Drawer opened={drawerOpened}  onClose={closeDrawer} closeButtonProps={{ iconSize: "0" }} position='top' size="md" styles={{
+                    body: {
+                        backgroundColor: "#010D38", // Change this to your desired color
+                    },
+                }}
                 >
                     <Stack gap={20} my="xl"  >
-                        
-                        <Link to="/"  className="linksHeader">
+
+                        <Link to="/" className="linksHeader">
                             Home
                         </Link>
 

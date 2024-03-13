@@ -12,8 +12,9 @@
   
   .title {
     margin-bottom: calc(var(--mantine-spacing-xl) * 1.5);
+    color: var(--mantine-color-white);
+
   }
-  
   
   .form {
     flex: 1;
@@ -29,6 +30,8 @@
   
   .fields {
     margin-top: rem(-12px);
+    color: var(--mantine-color-white);
+
   }
   
   .fieldInput {

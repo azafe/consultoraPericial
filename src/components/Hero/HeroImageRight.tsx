@@ -11,7 +11,7 @@ export function HeroImageRight() {
             <Title ta="center" className={classes.title}>
               Zafe <br /> Asociados 
             </Title>
-            <Title order={3} ta="center" mt="sm">Consultora Pericial</Title>
+            <Title order={3} ta="center" mt="sm" className={classes.subtitle}>Consultora Pericial</Title>
 
             <Text className={classes.description} mt={30}>
               Somos una empresa que se dedica a
